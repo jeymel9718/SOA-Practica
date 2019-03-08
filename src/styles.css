@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin: 20px 0;
+}
+
+.square {
+  background: #ffffff;
+  border: 3px solid #0000ff;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 50px;
+  margin-top: -5px;
+  margin-right: -5px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
