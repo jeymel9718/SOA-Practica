@@ -50,7 +50,7 @@ export default class Board extends React.Component {
     const winner = calculateWinner(this.state.squares);
     let status;
     if (winner) {
-      status = `Ganador ${winner}`;
+      status = `Ganador ${winner}, Jeison Melendez Arrieta`;
     } else {
       status = `Siguiente jugador: ${this.state.xIsNext ? "X" : "O"}`;
     }
